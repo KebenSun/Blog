@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://blog.kebensun.com"
 
 # theme
 # 主题
@@ -9,31 +9,31 @@ theme = "LoveIt"
 
 # website title
 # 网站标题
-title = "LoveIt"
+title = "个人播客 | 极客宗山"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 # language code ["en", "zh-CN", "fr", "pl", ...]
 # 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "en"
+languageCode = "zh-CN"
 # language name ["English", "简体中文", "Français", "Polski", ...]
 # 语言名称 ["English", "简体中文", "Français", "Polski", ...]
-languageName = "English"
+languageName = "简体中文"
 # whether to include Chinese/Japanese/Korean
 # 是否包括中日韩文字
 hasCJKLanguage = false
 
 # copyright description used only for seo schema
 # 版权描述，仅仅用于 SEO
-copyright = ""
+copyright = "Geek Zongshan"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
 enableRobotsTXT = true
 # whether to use git commit log
 # 是否使用 git 信息
-enableGitInfo = true
+enableGitInfo = false
 # whether to use emoji code
 # 是否使用 emoji 代码
 enableEmoji = true
@@ -100,10 +100,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
   # 网站标题, 用于 Open Graph 和 Twitter Cards
-  title = "LoveIt"
+  title = "Blog"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "Hugo theme - LoveIt"
+  description = "GeekZongshan's Blog"
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/logo.png"]
@@ -111,7 +111,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # Author config
   # 作者配置
   [params.author]
-    name = "xxxx"
+    name = "极客宗山"
     email = ""
     link = ""
 
@@ -132,7 +132,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       logo = ""
       # title name
       # 标题名称
-      name = "LoveIt"
+      name = "极客宗山"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = "<i class='far fa-kiss-wink-heart fa-fw' aria-hidden='true'></i>"
@@ -161,13 +161,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     author = true
     # site creation time
     # 网站创立年份
-    since = 2019
+    since = 2025
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-    icp = ""
+    icp = "鲁ICP备17018800号-2"
     # license info (HTML format is supported)
     # 许可协议信息 (支持 HTML 格式)
-    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+    #license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
   # Section (all posts) page config
   # Section (所有文章) 页面配置
@@ -289,85 +289,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # 主页的社交信息设置
   [params.social]
     GitHub = ""
-    Linkedin = ""
-    X = ""
-    Instagram = ""
-    Facebook = ""
-    Telegram = ""
-    Medium = ""
-    Gitlab = ""
-    Youtubelegacy = ""
-    Youtubecustom = ""
-    Youtubechannel = ""
-    Tumblr = ""
-    Quora = ""
-    Keybase = ""
-    Pinterest = ""
-    Reddit = ""
-    Codepen = ""
-    FreeCodeCamp = ""
-    Bitbucket = ""
-    Stackoverflow = ""
-    Weibo = ""
-    Odnoklassniki = ""
-    VK = ""
-    Flickr = ""
-    Xing = ""
-    Snapchat = ""
-    Soundcloud = ""
-    Spotify = ""
-    Bandcamp = ""
-    Paypal = ""
-    Fivehundredpx = ""
-    Mix = ""
-    Goodreads = ""
-    Lastfm = ""
-    Foursquare = ""
-    Hackernews = ""
-    Kickstarter = ""
-    Patreon = ""
-    Steam = ""
-    Twitch = ""
-    Strava = ""
-    Skype = ""
-    Whatsapp = ""
-    Zhihu = ""
-    Douban = ""
-    Angellist = ""
-    Slidershare = ""
-    Jsfiddle = ""
-    Deviantart = ""
-    Behance = ""
-    Dribbble = ""
-    Wordpress = ""
-    Vine = ""
-    Googlescholar = ""
-    Researchgate = ""
-    Mastodon = ""
-    Thingiverse = ""
-    Devto = ""
-    Gitea = ""
-    XMPP = ""
-    Matrix = ""
-    Bilibili = ""
-    Discord = ""
-    DiscordInvite = ""
-    Lichess = ""
-    ORCID = ""
-    Pleroma = ""
-    Kaggle = ""
-    MediaWiki = ""
-    Plume = ""
-    HackTheBox = ""
-    RootMe= ""
-    Malt = ""
-    TikTok = ""
-    TryHackMe = ""
-    Codeberg = ""
-    HuggingFace = ""
-    Threads = ""
-    Email = ""
-    RSS = ""
+    
 
   # Page global config
   # 文章页面全局配置
@@ -470,18 +392,18 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [params.page.share]
       enable = true
       X = true
-      Threads = true
-      Facebook = true
+      Threads = false
+      Facebook = false
       Linkedin = false
       Whatsapp = false
       Pinterest = false
       Tumblr = false
-      HackerNews = true
+      HackerNews = false
       Reddit = false
       VK = false
       Buffer = false
       Xing = false
-      Line = true
+      Line = false
       Instapaper = false
       Pocket = false
       Flipboard = false
@@ -492,13 +414,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       Evernote = false
       Skype = false
       Trello = false
-      Diaspora = true
+      Diaspora = false
       Mix = false
       Telegram = true
     # Comment config
     # 评论系统设置
     [params.page.comment]
-      enable = true
+      enable = false
       # Disqus comment config (https://disqus.com/)
       # Disqus 评论系统设置 (https://disqus.com/)
       [params.page.comment.disqus]
@@ -807,101 +729,101 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # Multilingual
 # 多语言
 [languages]
-  [languages.en]
-    weight = 1
-    languageCode = "en"
-    languageName = "English"
-    hasCJKLanguage = false
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        weight = 1
-        identifier = "posts"
-        pre = ""
-        post = ""
-        name = "Posts"
-        url = "/posts/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 2
-        identifier = "tags"
-        pre = ""
-        post = ""
-        name = "Tags"
-        url = "/tags/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 3
-        identifier = "categories"
-        pre = ""
-        post = ""
-        name = "Categories"
-        url = "/categories/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 4
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 5
-        identifier = "about"
-        pre = ""
-        post = ""
-        name = "About"
-        url = "/about/"
-        title = ""
-      [[languages.en.menu.main]]
-        weight = 6
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/dillonzq/LoveIt"
-        title = "GitHub"
-    [languages.en.params]
-      [languages.en.params.search]
-        enable = true
-        type = "algolia"
-        contentLength = 4000
-        placeholder = ""
-        maxResultLength = 10
-        snippetLength = 30
-        highlightTag = "em"
-        absoluteURL = false
-        [languages.en.params.search.algolia]
-          index = "index"
-          appID = "4D1IDY8JU6"
-          searchKey = "05332ac5ed76655a511f0da583a9afac"
-      [languages.en.params.home]
-        rss = 10
-        [languages.en.params.home.profile]
-          enable = true
-          gravatarEmail = ""
-          avatarURL = "/images/avatar.png"
-          title = ""
-          subtitle = "A Clean, Elegant but Advanced Hugo Theme"
-          typeit = true
-          social = true
-          disclaimer = ""
-      [languages.en.params.social]
-        GitHub = "xxxx"
-        X = "xxxx"
-        Instagram = "xxxx"
-        Facebook = "xxxx"
-        Telegram = "xxxx"
-        Youtubelegacy = "xxxx"
-        HuggingFace = "xxxx"
-        Threads = "xxxx"
-        Phone = "555-555-555"
-        Email = "xxxx@xxxx.com"
-        RSS = true
-        [languages.en.params.social.Mastodon]
-          id = "@xxxx"
-          prefix = "https://mastodon.technology/"
+  # [languages.en]
+  #   weight = 1
+  #   languageCode = "en"
+  #   languageName = "English"
+  #   hasCJKLanguage = false
+  #   copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+  #   [languages.en.menu]
+  #     [[languages.en.menu.main]]
+  #       weight = 1
+  #       identifier = "posts"
+  #       pre = ""
+  #       post = ""
+  #       name = "Posts"
+  #       url = "/posts/"
+  #       title = ""
+  #     [[languages.en.menu.main]]
+  #       weight = 2
+  #       identifier = "tags"
+  #       pre = ""
+  #       post = ""
+  #       name = "Tags"
+  #       url = "/tags/"
+  #       title = ""
+  #     [[languages.en.menu.main]]
+  #       weight = 3
+  #       identifier = "categories"
+  #       pre = ""
+  #       post = ""
+  #       name = "Categories"
+  #       url = "/categories/"
+  #       title = ""
+  #     [[languages.en.menu.main]]
+  #       weight = 4
+  #       identifier = "documentation"
+  #       pre = ""
+  #       post = ""
+  #       name = "Docs"
+  #       url = "/categories/documentation/"
+  #       title = ""
+  #     [[languages.en.menu.main]]
+  #       weight = 5
+  #       identifier = "about"
+  #       pre = ""
+  #       post = ""
+  #       name = "About"
+  #       url = "/about/"
+  #       title = ""
+  #     [[languages.en.menu.main]]
+  #       weight = 6
+  #       identifier = "github"
+  #       pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+  #       post = ""
+  #       name = ""
+  #       url = "https://github.com/dillonzq/LoveIt"
+  #       title = "GitHub"
+  #   [languages.en.params]
+  #     [languages.en.params.search]
+  #       enable = true
+  #       type = "algolia"
+  #       contentLength = 4000
+  #       placeholder = ""
+  #       maxResultLength = 10
+  #       snippetLength = 30
+  #       highlightTag = "em"
+  #       absoluteURL = false
+  #       [languages.en.params.search.algolia]
+  #         index = "index"
+  #         appID = "4D1IDY8JU6"
+  #         searchKey = "05332ac5ed76655a511f0da583a9afac"
+  #     [languages.en.params.home]
+  #       rss = 10
+  #       [languages.en.params.home.profile]
+  #         enable = true
+  #         gravatarEmail = ""
+  #         avatarURL = "/images/avatar.png"
+  #         title = ""
+  #         subtitle = "A Clean, Elegant but Advanced Hugo Theme"
+  #         typeit = true
+  #         social = true
+  #         disclaimer = ""
+  #     [languages.en.params.social]
+  #       GitHub = "xxxx"
+  #       X = "xxxx"
+  #       Instagram = "xxxx"
+  #       Facebook = "xxxx"
+  #       Telegram = "xxxx"
+  #       Youtubelegacy = "xxxx"
+  #       HuggingFace = "xxxx"
+  #       Threads = "xxxx"
+  #       Phone = "555-555-555"
+  #       Email = "xxxx@xxxx.com"
+  #       RSS = true
+  #       [languages.en.params.social.Mastodon]
+  #         id = "@xxxx"
+  #         prefix = "https://mastodon.technology/"
 
   [languages.zh-cn]
     weight = 2
@@ -949,14 +871,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         name = "关于"
         url = "/about/"
         title = ""
-      [[languages.zh-cn.menu.main]]
-        weight = 6
-        identifier = "github"
-        pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
-        post = ""
-        name = ""
-        url = "https://github.com/dillonzq/LoveIt"
-        title = "GitHub"
+      # [[languages.zh-cn.menu.main]]
+      #   weight = 6
+      #   identifier = "github"
+      #   pre = "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+      #   post = ""
+      #   name = ""
+      #   url = "https://github.com/dillonzq/LoveIt"
+      #   title = "GitHub"
     [languages.zh-cn.params]
       [languages.zh-cn.params.search]
         enable = true
@@ -978,7 +900,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           gravatarEmail = ""
           avatarURL = "/images/avatar.png"
           title = ""
-          subtitle = "一个简洁、优雅且高效的 Hugo 主题"
+          subtitle = "💻代码编织者，🚲两轮探险家，🎮电子战场老司机。"
           typeit = true
           social = true
           disclaimer = ""
