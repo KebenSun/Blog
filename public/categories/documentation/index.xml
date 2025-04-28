@@ -1,7 +1,7 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>文档 - 分类 - 个人播客 | 极客宗山</title>
-        <link>http://localhost:1313/categories/documentation/</link>
-        <description>文档 - 分类 - 个人播客 | 极客宗山</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="http://localhost:1313/categories/documentation/" rel="self" type="application/rss+xml" /></channel>
+        <title>文档 - 分类 - 个人博客 | 极客宗山</title>
+        <link>http://localhost:58579/categories/documentation/</link>
+        <description>文档 - 分类 - 个人博客 | 极客宗山</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="http://localhost:58579/categories/documentation/" rel="self" type="application/rss+xml" /></channel>
 </rss>

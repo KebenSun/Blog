@@ -9,7 +9,7 @@ theme = "LoveIt"
 
 # website title
 # 网站标题
-title = "个人播客 | 极客宗山"
+title = "个人博客 | 极客宗山"
 
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 # 设置默认的语言 ["en", "zh-cn", "fr", "pl", ...]
@@ -905,13 +905,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
           social = true
           disclaimer = ""
       [languages.zh-cn.params.social]
-        GitHub = "xxxx"
-        Weibo = "xxxx"
-        Steam = "xxxx"
-        Zhihu = "xxxx"
-        Douban = "xxxx"
-        Devto = "xxxx"
-        Bilibili = "xxxx"
-        Email = "xxxx@xxxx.com"
-        Phone = "555-555-555"
+        tiktok = "/"
+        Wechat = "img/jkzs.jpg"
+        bilibili = ""
         RSS = true
