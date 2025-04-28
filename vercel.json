@@ -13,5 +13,8 @@
   },
   "git": {
     "submodules": true
-  }
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
 }
