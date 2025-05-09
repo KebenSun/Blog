@@ -13,8 +13,8 @@ resources:
   src: ""
 
 
-tags: ["Blog"]
-categories: ["Others"]
+tags: ["Hugo","Vercel","GitHub","静态博客"]
+categories: ["博客搭建"]
 
 lightgallery: true
 
@@ -22,7 +22,7 @@ toc:
   auto: false
 ---
 
-十年程序人生 之 瞎折腾的博客
+十年程序人生 之 瞎折腾的博客。
 
 <!--more-->
 
